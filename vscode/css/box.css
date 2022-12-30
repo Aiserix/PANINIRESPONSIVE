@@ -1,0 +1,31 @@
+.container img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center ;
+    background: block;
+}
+.container img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.reponsive-container{
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 4rem;
+}
+.reponsive-container img{
+    width: 100%;
+}

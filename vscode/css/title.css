@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-title-container{
+    display: flex;
+    padding: 0;
+    padding-top: 2rem;
+}
+.home-title-box{
+    padding: 0 5px;
+    height: 65px;
+}
+.home-title-container .home-title-box {
+    display: block;
+    width: 350px;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin: 0 0 15px;
+}
+.home-title-container .home-title-box>h2{
+    margin: 0;
+    font-size: 2.4rem;
+    font-family: 'Nunito';
+    font-weight: 800;
+    line-height: 75px;
+}
+
+h3{
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.home-title-box h3 {
+    height: 65px;
+    margin-top: 1rem !important;
+}
+@media only screen and (max-width: 767px){
+    .home-title-box{
+    margin: 0 auto !important;
+    }
+}

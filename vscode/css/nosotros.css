@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    margin: 1em;
+    font-family: 'Roboto';
+    color: red;
+}
+p{
+    text-align: star;
+    margin: 3rem;
+    padding: 0;
+    font-family: 'Helvetica';
+    font-size: larger;
+}
+.comtainer{
+    width: 900px;
+}
+.video-responsive{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+.video-responsive iframe{
+    display: relative;
+    position: absolute;
+    top: 0;
+    left: 3rem;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
+}
